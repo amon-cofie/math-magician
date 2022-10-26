@@ -11,34 +11,72 @@ class Calculator extends React.Component {
       <div className="calculator-container">
         <div className="calculator-screen"> 0 </div>
         <div className="calculator-buttons">
-          <div className="row1">
-            <button type="button"> AC </button>
-            <button type="button"> +/- </button>
-            <button type="button"> % </button>
-            <button type="button"> ÷ </button>
+          <div className="row row1">
+            <button className="grow1" type="button">
+              AC
+            </button>
+            <button className="grow1" type="button">
+              +/-
+            </button>
+            <button className="grow1" type="button">
+              %
+            </button>
+            <button className="grow1 operator-btn" type="button">
+              ÷
+            </button>
           </div>
-          <div className="row2">
-            <button type="button"> 7 </button>
-            <button type="button"> 8 </button>
-            <button type="button"> 9 </button>
-            <button type="button"> x </button>
+          <div className="row row2">
+            <button className="grow1" type="button">
+              7
+            </button>
+            <button className="grow1" type="button">
+              8
+            </button>
+            <button className="grow1" type="button">
+              9
+            </button>
+            <button className="grow1 operator-btn" type="button">
+              x
+            </button>
           </div>
-          <div className="row3">
-            <button type="button"> 4 </button>
-            <button type="button"> 5 </button>
-            <button type="button"> 6 </button>
-            <button type="button"> - </button>
+          <div className="row row3">
+            <button className="grow1" type="button">
+              4
+            </button>
+            <button className="grow1" type="button">
+              5
+            </button>
+            <button className="grow1" type="button">
+              6
+            </button>
+            <button className="grow1 operator-btn" type="button">
+              -
+            </button>
           </div>
-          <div className="row4">
-            <button type="button"> 1 </button>
-            <button type="button"> 2 </button>
-            <button type="button"> 3 </button>
-            <button type="button"> + </button>
+          <div className="row row4">
+            <button className="grow1" type="button">
+              1
+            </button>
+            <button className="grow1" type="button">
+              2
+            </button>
+            <button className="grow1" type="button">
+              3
+            </button>
+            <button className="grow1 operator-btn" type="button">
+              +
+            </button>
           </div>
-          <div className="row5">
-            <button type="button"> 0 </button>
-            <button type="button"> . </button>
-            <button type="button"> = </button>
+          <div className="row row5">
+            <button className="grow2" type="button">
+              0
+            </button>
+            <button className="grow1" type="button">
+              .
+            </button>
+            <button className="grow1 operator-btn" type="button">
+              =
+            </button>
           </div>
         </div>
       </div>
