@@ -58,4 +58,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/amon-cofie/leaderboard-project/blob/develop/LICENSE) licensed.
+This project is [MIT](https://github.com/amon-cofie/math-magician/blob/feature/core-structure/LICENSE) licensed.
