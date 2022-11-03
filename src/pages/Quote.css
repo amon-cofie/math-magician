@@ -1,0 +1,8 @@
+.quote-container {
+  font-size: 2rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  min-height: 70vh;
+  padding: 2rem;
+}

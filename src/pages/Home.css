@@ -1,0 +1,7 @@
+.home-container {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 70vh;
+  padding: 2rem;
+}
