@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders About component snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="quote-container"
+  >
+    <p>
+      Mathematics is not all about numbers, equations, computations, or algorithms: it is about understanding. -William Paul Thurston
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`renders Home component snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="home-container"
+  >
+    <h1>
+      Welcome to our page!
+    </h1>
+    <br />
+    <br />
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos porro quis nemo dolore autem unde voluptatum nostrum vel nobis culpa aliquam totam temporibus atque accusantium blanditiis sunt officiis sequi, libero adipisci voluptates et eum incidunt quos corrupti. Modi optio illo nulla aut at tempore corporis unde tempora, vero quasi vel.
+    </p>
+    <br />
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos porro quis nemo dolore autem unde voluptatum nostrum vel nobis culpa aliquam totam temporibus atque accusantium blanditiis sunt officiis sequi, libero adipisci voluptates et eum incidunt quos corrupti. Modi optio illo nulla aut at tempore corporis unde tempora, vero quasi vel.
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`renders navbar component snapshot 1`] = `
+<DocumentFragment>
+  <nav
+    class="navbar-container"
+  >
+    <h1
+      class="main-heading"
+    >
+      Math Magicians
+    </h1>
+    <ul
+      class="nav-links"
+    >
+      <li
+        data-testid="Home"
+      >
+        <a
+          aria-current="page"
+          class="active"
+          href="/"
+        >
+          Home
+        </a>
+      </li>
+      <li
+        data-testid="Calculator"
+      >
+        <a
+          class=""
+          href="/calculator"
+        >
+          Calculator
+        </a>
+      </li>
+      <li
+        data-testid="Quote"
+      >
+        <a
+          class=""
+          href="/quote"
+        >
+          Quote
+        </a>
+      </li>
+    </ul>
+  </nav>
+</DocumentFragment>
+`;

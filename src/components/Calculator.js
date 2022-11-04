@@ -10,7 +10,7 @@ const Calculator = () => {
 
   return (
     <div className="calculator-container">
-      <div className="calculator-screen">
+      <div className="calculator-screen" data-testid="calc-screen">
         <span>{stateObj.total}</span>
         <span>{stateObj.operation}</span>
         <span>{stateObj.next}</span>
@@ -102,6 +102,7 @@ const Calculator = () => {
             className="grow1 operator-btn"
             type="button"
             onClick={() => setStateObj(calculate('-', stateObj))}
+            data-testid="operator-minus"
           >
             -
           </button>
