@@ -8,8 +8,11 @@
 
 - React
 
-## Get Started
+## Live Demo
 
+
+You can view this app live [here](https://earnest-starlight-0ba49b.netlify.app/)
+### Get Started
 This project is high-fidelity wireframe of a calculator app. You can make a copy to personalize it.
 To get a local copy up and running follow these simple example steps:
 
