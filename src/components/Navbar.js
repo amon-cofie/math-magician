@@ -26,7 +26,7 @@ const Navbar = () => {
       <h1 className="main-heading">Math Magicians</h1>
       <ul className="nav-links">
         {links.map((link) => (
-          <li key={link.id}>
+          <li data-testid={link.text} key={link.id}>
             <NavLink to={link.path}>{link.text}</NavLink>
           </li>
         ))}
