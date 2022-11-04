@@ -6,7 +6,6 @@ import Navbar from '../components/Navbar';
 import Home from '../pages/Home';
 import Quote from '../pages/Quote';
 
-
 test('renders navbar component snapshot', () => {
   const { asFragment } = render(
     <BrowserRouter>
@@ -23,7 +22,7 @@ test('renders Home component snapshot', () => {
     </BrowserRouter>,
   );
   expect(asFragment()).toMatchSnapshot();
-})
+});
 
 test('renders About component snapshot', () => {
   const { asFragment } = render(
@@ -32,4 +31,4 @@ test('renders About component snapshot', () => {
     </BrowserRouter>,
   );
   expect(asFragment()).toMatchSnapshot();
-})
+});
